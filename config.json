@@ -1,0 +1,18 @@
+{
+  "prompt": true,
+  "focusTab": 2,
+  "tabs": [
+    {
+      "title": "Ungit",
+      "directory": "",
+      "isRelative": true,
+      "command": "ungit"
+    },
+    {
+      "title": "Azurite",
+      "directory": "%USERPROFILE%\\AppData\\Roaming\\npm\\",
+      "isRelative": false,
+      "command": ".\\azurite --location 'C:\\AzuriteWorkspace' --silent"
+    }
+  ]
+}
