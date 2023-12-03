@@ -4,6 +4,12 @@ An example of using https://github.com/oatsoda/TerminalTabsEnvironment
 
 This repo is an example of a repo that you could create to share your TerminalTabsEnvironment startup scripts.
 
+Add the submodule to your repo with:
+
+```
+git clone https://github.com/oatsoda/TerminalTabsEnvironment-Example.git
+```
+
 Your team members would clone this repo alongside other repositories containing your source, e.g.
 
 ```
