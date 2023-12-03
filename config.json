@@ -10,7 +10,7 @@
     },
     {
       "title": "Azurite",
-      "directory": "%USERPROFILE%\\AppData\\Roaming\\npm\\",
+      "directory": "$($env:userprofile)\\AppData\\Roaming\\npm\\",
       "isRelative": false,
       "command": ".\\azurite --location 'C:\\AzuriteWorkspace' --silent"
     }
