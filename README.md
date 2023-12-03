@@ -19,12 +19,14 @@ Your team members would clone this repo alongside other repositories containing 
 │ ├── TerminalTabsEnvironment-Example *this repo (but you might name it DeveloperEnvironment or similar)
 ```
 
-Then they would create a `startup.bat` file on their machine - for example on the deskop, containing the above `BasePath` (which is obviously specific to their machine).
-
-For example, if the path which is represented by `BasePath` is `c:\source`:
+This repo contains:
 
 ```
-c:\source\TerminalTabsEnvironment-Example\TerminalTabsEnvironment\StartEnvironment.ps1 -ConfigFolderPath c:\source\TerminalTabsEnvironment-Example -BaseTabPath c:\source
+├── TerminalTabsEnvironment-Example *this repo (but you might name it DeveloperEnvironment or similar)
+│ ├── confg.json - your standard tabs you wish to open.
+│ ├── PreScript.json - your standard startup executions.
+│ ├── .gitignore - to ensure `config-additions.json` or `PreScript-Additions.ps1` that your team may want to customise for their machine, do not get committed to the repo.
+│ ├── Startup.bat - a batch file for your team to start up each day (they can create a shortcut to this file)
 ```
 
 ## Notes
